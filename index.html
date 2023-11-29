@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunny Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+     <div class="header">
+            <div class="head-cont">
+            <img src="./assets/logo.svg" alt="logo" class="logo">
+            <img src="./assets/icon-hamburger.svg" alt="hamburger" id="hamburger">
+            <nav id="menuBox" class="menuBox">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#" id="cont">Contact</a></li>
+                </ul>
+            </nav></div>
+            <div class="we-are">
+                <h1>WE ARE CREATIVES</h1>
+                <img src="./assets/icon-arrow-down.svg" alt="arrow-down" class="arrow-down">
+            </div>
+        </div>
+        <div class="second-box">
+            <div class="sec-box1">
+                <div class="text1">
+                    <h1>Transform your <br> brand</h1>
+                    <p>We are a full-service creative agency specializing in <br>
+                    helping branding brands grow fast. Engage your clients through
+                    compelling visuals that do not most of the marketing for you. </p>
+                    
+                    <span><h4>Learn more</h4></span>
+                </div>
+            </div>
+            <div class="sec-box2"></div>
+        </div>
+        <div class="third-box">
+            <div class="third-box1"></div>
+            <div class="third-box2">
+                <div class="text3">
+                    <h1>Standout to the right <br> audience</h1>
+
+                    <p>Using a collaborative formula of designers, researchers, <br>
+                    photographers, videographers, and copywriters, we'll <br>
+                    build and extend your brand in digital places.</p>
+                    <h4>LEARN MORE</h4>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="fourth-box">
+            <div class="fourth-box1">
+                <div class="text4">
+                    <h1>Graphics Design</h1>
+                    <p>Great design makes you memorable. We deliver <br>
+                    artwork that underscores your brand message <br>
+                    and captures potential clients' attention.</p>
+                </div>
+            </div>
+            <div class="fourth-box2">
+                <div class="textiv">
+                    <h1>Photography</h1>
+                    <p>Increase your credibility by getting the most <br>
+                    stunning, high-quality photos that improve your <br>
+                    business image.</p>
+                </div>
+            </div>
+        </div>
+        
+    <script>
+        let hamburger = document.getElementById("hamburger");
+        let nav = document.querySelector("nav"); 
+
+        hamburger.onclick = function(){
+        nav.classList.toggle("open-nav");
+        }
+
+
+    </script>
+</body>
+</html>
