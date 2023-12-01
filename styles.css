@@ -185,16 +185,18 @@ nav ul li a{
     width: 50%;
     height: 600px;
     background-image: url(./assets/desktop/image-graphic-design.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .fourth-box2{
     width: 50%;
     height: 600px;
     background-image: url(./assets/desktop/image-photography.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .text4{
@@ -229,12 +231,10 @@ nav ul li a{
 
 .fifth-box{
     width: 100%;
-    height: 700px;
+    height: 600px;
     background-color: #fff;
     align-items: center;
-    justify-content: space-between;
     text-align: center;
-    flex-direction: row;
 }
 
 .testimonial{
@@ -262,38 +262,48 @@ nav ul li a{
         margin-bottom: 10px;
 }
 
-.sixth-box{
+
+.img-boxes{
     display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
+
 
 .sixth-box1{
     width: 25%;
-    height: 600px;
+    height: 400px;
     background-image: url(./assets/desktop/image-gallery-milkbottles.jpg);
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
 .sixth-box2{
     width: 25%;
-    height: 600px;
+    height: 400px;
     background-image: url(./assets/desktop/image-gallery-orange.jpg);
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
 .sixth-box3{
     width: 25%;
-    height: 600px;
+    height: 400px;
     background-image: url(./assets/desktop/image-gallery-cone.jpg);
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
 .sixth-box4{
     width: 25%;
-    height: 600px;
+    height: 400px;
     background-image: url(./assets/desktop/image-gallery-sugarcubes.jpg);
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
