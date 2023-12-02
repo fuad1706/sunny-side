@@ -131,7 +131,7 @@ nav ul li a{
     width: 10%;
     height: 2px;
     background-color: yellow;
-    z-index: -1;
+    /* z-index: -1; */
 
 }
 
@@ -235,6 +235,7 @@ nav ul li a{
     background-color: #fff;
     align-items: center;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .testimonial{
@@ -265,8 +266,10 @@ nav ul li a{
 
 .img-boxes{
     display: flex;
+    flex-direction: row;
+    width: 100%;
     flex-wrap: wrap;
-    margin: 0;
+    margin-top: 70px;
     padding: 0;
     overflow: hidden;
 }
