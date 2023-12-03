@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
-html, body{
-    /* scroll-behavior: smooth; */
+body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.sunny{
+    /* overflow-x: hidden; */
 }
 
 .header{
@@ -49,6 +54,9 @@ nav ul li a{
 #cont:hover{
     opacity: 0.3;
     color: white;
+}
+#cont a:hover {
+    color: white !important;
 }
 
 .we-are{
@@ -366,7 +374,7 @@ nav ul li a{
 }
 
 .facebook, .instagram, .twitter, .pinterest {
-    margin-left: 2em;
+    margin-left: 1.5em;
     width: 30px;
 }
 

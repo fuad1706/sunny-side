@@ -225,7 +225,7 @@
 
     .img-boxes{
         display: flex;
-        overflow: hidden;
+        overflow-x: hidden;
         align-items: center;
         margin-top: 0;
         padding: 0;
@@ -241,8 +241,7 @@
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
-        overflow: hidden;
-        margin: 0;
+        overflow-x: hidden;
         padding: 0;
 
     }
@@ -255,8 +254,7 @@
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
-        overflow: hidden;
-        margin: 0;
+        overflow-x: hidden;
         padding: 0;
 
     }
@@ -269,8 +267,9 @@
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
-        overflow: hidden;
-        margin: 0;
+        overflow-x: hidden;
+        margin-top: -30px;
+        margin-bottom: -30px;
         padding: 0;
 }
         
@@ -284,8 +283,9 @@
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
-        overflow: hidden;
-        margin: 0;
+        overflow-x: hidden;
+        margin-top: -30px;
+        margin-bottom: -30px;
         padding: 0;
     }
 
