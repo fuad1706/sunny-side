@@ -118,6 +118,13 @@
         margin-top: 50px;
     }
 
+    .text1 h4::after{
+        transform: translateX(140px);
+        /* transform: translateY(20px); */
+        width: 90px;
+        height: 3px;
+    }
+
     .third-box{
         flex-direction: column;
     }
@@ -292,6 +299,7 @@
 
     .facebook, .instagram, .twitter, .pinterest{
         width: 20px;
+        margin-left: 1em;
     }
 
     .last-cont{
