@@ -27,14 +27,14 @@
     margin-right: auto;
     margin-left: auto;
     z-index: 1;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); */
     }
 
     nav.open-nav {
         max-height: 500px; 
         height: 50%; 
         background-color: white; 
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); 
+        /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);  */
     }
 
     nav ul {
