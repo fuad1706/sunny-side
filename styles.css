@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
+/* font-family: 'Barlow', sans-serif; */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+ 
 body{
     overflow-x: hidden;
     scroll-behavior: smooth;
+    font-family: 'Fraunces', serif;
 }
 
 .sunny{
@@ -42,6 +50,8 @@ nav ul{
 nav ul li a{
     color: #fff;
     text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
 }
 
 #cont{
@@ -49,6 +59,8 @@ nav ul li a{
     background-color: #fff;
     padding: 10px 30px;
     color: black;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
 }
 
 #cont:hover{
@@ -65,6 +77,9 @@ nav ul li a{
 }
 
 .we-are h1{
+    font-family: 'Fraunces', serif ;
+    font-weight: 900;
+    text-transform: uppercase;
     margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
@@ -111,24 +126,28 @@ nav ul li a{
 
 .text1 {
     padding-top: 100px;
-    padding-left: 200px;
+    padding-left: 100px;
 }
 
 .text1 h1{
-     margin-bottom: 30px;
+     margin-bottom: 35px;
      font-size: 30px;
 }
 
 .text1 p{
+    font-family: 'Barlow', sans-serif;
     margin-bottom: 30px;
-    width: 60%;
-    font-size: 18px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(167, 40%, 24%);
 }
 
 .text1 h4{
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 18px;
     position: relative;
+    font-weight: 600;
 }
 
 .text1 h4::after{
@@ -136,8 +155,8 @@ nav ul li a{
     position: absolute;
     bottom: -5px;
     left: 0;
-    width: 10%;
-    height: 3px;
+    width: 25%;
+    height: 7px;
     background-color: yellow;
     /* z-index: -1; */
 
@@ -168,19 +187,34 @@ nav ul li a{
 
 .text3 h1{
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .text3 p{
    margin-bottom: 30px;
    width: 100%;
-   font-size: 18px;
+   font-size: 16px;
+   font-family: 'Barlow', sans-serif;
+   font-weight: 600;
+   color: hsl(167, 40%, 24%);
 }
 
 .text3 h4{
    text-transform: uppercase;
-   font-size: 13px;
+   font-size: 18px;
    position: relative;
+}
+
+.text3 h4::after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 30%;
+    height: 7px;
+    background-color: hsl(7, 99%, 70%);
+    /* z-index: -1; */
+
 }
 
 .fourth-box{
@@ -216,10 +250,14 @@ nav ul li a{
 
 .text4 h1{
     margin-bottom: 30px;
+    color: hsl(167, 40%, 24%);
 }
 
 .text4 p{
     font-size: 18px;
+    color: hsl(167, 40%, 24%);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
 }
 
 .textiv{
@@ -231,10 +269,13 @@ nav ul li a{
 
 .textiv h1{
     margin-bottom: 30px;
+   color: hsl(198, 62%, 26%);
 }
 
 .textiv p{
     font-size: 18px;
+    color: hsl(198, 62%, 26%);
+    /* line-height: 5px; */
 }
 
 .fifth-box{
