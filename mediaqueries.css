@@ -76,6 +76,10 @@
         display: block;
     }
 
+    .we-are h1{
+        font-size: 40px;
+    }
+
 
     .arrow-down{
         height: 90px;
@@ -110,8 +114,9 @@
 
     .text1 p{
         width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
+        font-size: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .text1 h1{
@@ -119,10 +124,9 @@
     }
 
     .text1 h4::after{
-        transform: translateX(140px);
-        /* transform: translateY(20px); */
-        width: 90px;
-        height: 3px;
+        left: 123px;
+        width: 130px;
+        height: 10px;
     }
 
     .third-box{
@@ -152,12 +156,28 @@
 
     }
 
+    .text3 h1{
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 0 auto 20px auto;
+    
+    }
+
     .text3 p{
-        width: 87%;
+        width: 100%;
         text-align: center;
         margin: 0 auto 20px auto;
+        padding-left: 20px;
+        padding-right: 20px;
         font-size: 18px;
 
+    }
+
+    .text3 h4::after{
+        left: 123px;
+        width: 130px;
+        height: 10px;
     }
 
     .fourth-box{
@@ -201,14 +221,24 @@
 
     .text4 p{
         font-size: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .text4 h1{
         margin-bottom: 15px;
     }
     .fifth-box h1{
-        font-size: 25px;
+        font-size: 20px;
         margin-top: 100px;
         margin-bottom: 50px;
+        width: 100%;
+        letter-spacing: 2px;
+    }
+
+    .textiv p{
+        font-size: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .testimonial{
@@ -217,6 +247,8 @@
 
     .emily p, .thomas p, .jennie p{
         margin-bottom: 30px;
+        width: 100%;
+        font-size: 18px;
     }
 
     .emily, .thomas, .jennie{
