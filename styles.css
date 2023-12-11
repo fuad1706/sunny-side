@@ -144,7 +144,8 @@ nav ul li a{
     font-size: 16px;
     font-weight: 600;
     line-height: 1.5;
-    color: hsl(167, 40%, 24%);
+    /* color: hsl(167, 40%, 24%); */
+    color: hsl(210, 4%, 67%);
 }
 
 .text1 h4{
@@ -207,7 +208,8 @@ nav ul li a{
    font-size: 16px;
    font-family: 'Barlow', sans-serif;
    font-weight: 600;
-   color: hsl(167, 40%, 24%);
+   /* color: hsl(167, 40%, 24%); */
+   color: hsl(210, 4%, 67%);
    line-height: 1.5;
 
    
